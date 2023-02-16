@@ -18,6 +18,13 @@
     transition: 0.3s ease-in-out;
 }
 
+.navbar .navbar-brand i{
+    --fa-primary-color: #ffd500;
+    --fa-secondary-color: #552e01;
+    --fa-secondary-opacity: 1;
+    font-size: 50px;
+}
+
 .sidebarbg {
     background-color: #fcfcfc;
 }
