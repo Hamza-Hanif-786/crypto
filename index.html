@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play-Trade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbarbg">
+        <div class="container py-3">
+          <a class="navbar-brand ms-lg-3 ms-sm-1" href="#home">
+            <img src="/images/logo.svg" alt="Logo" width="50" height="50" class="d-inline-block ">
+            Play-trade
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbaroffcanvasLg" aria-controls="navbaroffcanvasLg">
+            <span class="navbartoggle"><i class="fa-light fa-bars"></i></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="navbaroffcanvasLg" aria-labelledby="navbaroffcanvasLgLabel">
+            <div class="offcanvas-header sidebarbg text-white">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hamza Personal</h5>
+              <button type="button" class="btn closebtn" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body sidebarbg">
+              <ul class="navbar-nav justify-content-start flex-lg-grow-1 gap-4 align-items-center ms-lg-5">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Browse</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trade</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Markets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Buy Crypto <span class="badge bg-warning rounded-5">EUR</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid herosection py-5" id="home">
+        <div class="container herocontainer">
+            <div class="row gap-sm-3 gap-lg-0 gap-md-3 gap-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <h1 class="heroheading">Buy, trade and hold <br>580+ crypto currencies <br>on Play-trade</h1>
+                    <p class="herodescription">Trade Bitcoin, Ethereum, Ripple, Litecoin and many other cryptocurrencies on    the most advanced cryptocurrency exchange to trade your favorite coins.
+                    </p>
+                    <div class="d-flex flex-row gap-5">
+                        <a class="tradebtn" href="#" role="button">Trade For Free</a>
+                        <a class="discoverbtn" href="#" role="button">Discover</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <img src="./images/heroimg.svg" alt="heroimg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid infosection py-5">
+        <div class="container infocontainer">
+            <div class="row gap-lg-0 gap-sm-5 gap-5">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="infoheading">$38 billion</div>
+                    <div class="infotext">24h trading volume on <br>Play-trade exchange</div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="infoheading">370+</div>
+                    <div class="infotext">Cryptocurrencies listed</div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="infoheading">125 million</div>
+                    <div class="infotext">Registered users</div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="infoheading"><i class="fas fa-less-than me-1"></i>0.15%</div>
+                    <div class="infotext">Lowest transaction fees</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid slidersection py-5">
+        <div class="container slidercontainer">
+            <div class="d-flex flex-column mb-5">
+                <div class="sliderheading">Trending Collections</div>
+                <div class="slidertext">Check out our weekly updated trending collections</div>
+            </div>
+             <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">NFT Technology</h5>
+                                <img src="./images/nft-technology.svg" alt="nft" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Mining</h5>
+                                <img src="./images/mining.svg" alt="nft" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Crypto Calculator</h5>
+                                <img src="./images/crypto-calculator.svg" alt="nft" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid currencysection py-5">
+        <div class="container currencycontainer">
+            <div class="d-flex flex-row justify-content-between">
+                <div class="currencyheading">Popular cryptocurrencies</div>
+                <div class="currencytext">View more markets</div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-borderless">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Last Price</th>
+                        <th scope="col">24h Change</th>
+                        <th scope="col">Market Cap</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><img src="./images/bitcoin.svg" alt="" class="img-fluid me-2"> Bitcoin <span class="cryptolabel">BTC</span></th>
+                        <td>$16,502</td>
+                        <td class="text-success">+0.36%</td>
+                        <td>$321,605M</td>
+                      </tr>
+                      <tr>
+                        <th><img src="./images/bnb.svg" alt="" class="img-fluid me-2"> BNB <span class="cryptolabel">BNB</span></th>
+                        <td>$16,502</td>
+                        <td class="text-success">+0.25%</td>
+                        <td>$321,605M</td>
+                      </tr>
+                      <tr>
+                        <th><img src="./images/ethereum.svg" alt="" class="img-fluid me-2"> Ethereum <span class="cryptolabel">ETH</span></th>
+                        <td>$18,700</td>
+                        <td class="text-danger">-0.23%</td>
+                        <td>$300,200M</td>
+                      </tr>
+                      <tr>
+                        <th><img src="./images/metaversetoken.svg" alt="" class="img-fluid me-2"> Green Metaverse Token <span class="cryptolabel">GMT</span></th>
+                        <td>$15,600</td>
+                        <td class="text-success">+0.42%</td>
+                        <td>$321,605M</td>
+                      </tr>
+                      <tr>
+                        <th><img src="./images/galxe.svg" alt="" class="img-fluid me-2"> Galxe <span class="cryptolabel">GAL</span></th>
+                        <td>$16,502</td>
+                        <td class="text-danger">-0.14%</td> 
+                        <td>$220,400M</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid subscribesection py-5">
+        <div class="container subscribecontainer">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <h2 class="subscribeheading">Sign up now to build your <br>own portfolio for free!</h2>
+                    <div class="d-flex flex-row gap-4">
+                        <input type="text" class="form-control email1" placeholder="Enter your email address">
+                        <button type="submit" class="emailbtn1">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="d-flex justify-content-end">
+                        <img src="./images/subscribeimg.svg" alt="subscribeimg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="conatiner-fluid blogsection py-5">
+        <div class="container blogcontainer">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="blogheading">The Play-trade's Blog</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="./images/blog1.svg" class="card-img-top" alt="blogimg">
+                        <div class="card-body">
+                            <div class="card-text">07 Feb 2023</div>
+                            <h5 class="card-title">Significant reading has more info</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-12">
+                        <div class="card mb-4">
+                            <img src="./images/blog2.svg" class="card-img-top" alt="blogimg">
+                            <div class="card-body">
+                                <div class="card-text">10 Feb 2023</div>
+                                <h5 class="card-title">Many variations of pass majority...</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <img src="./images/blog3.svg" class="card-img-top" alt="blogimg">
+                            <div class="card-body">
+                                <div class="card-text">13 Feb 2023</div>
+                                <h5 class="card-title">Words which don't look even...</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="blogbtn">View All Blogs <i class="fas fa-arrow-right ms-2"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footersection py-5">
+        <div class="container footercontainer">
+            <div class="row g-3">
+                <div class="d-flex flex-column col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h5 class="footerheading">About US</h5>
+                    <a href="#" class="footertext">About</a>
+                    <a href="#" class="footertext">Terms</a>
+                    <a href="#" class="footertext">Business Contacts</a>
+                    <a href="#" class="footertext">News</a>
+                    <a href="#" class="footertext">Notices</a>
+                </div>
+                <div class="d-flex flex-column col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h5 class="footerheading">Service</h5>
+                    <a href="#" class="footertext">Buy Crypto</a>
+                    <a href="#" class="footertext">Download</a>
+                    <a href="#" class="footertext">Affiliate</a>
+                    <a href="#" class="footertext">BNB</a>
+                </div>
+                <div class="d-flex flex-column col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h5 class="footerheading">Support US</h5>
+                    <a href="#" class="footertext">Play-trade Verify</a>
+                    <a href="#" class="footertext">APIs</a>
+                    <a href="#" class="footertext">Trading Rules</a>
+                    <a href="#" class="footertext">Fees</a>
+                </div>
+                <div class="d-flex flex-column col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h5 class="footerheading">Follow us</h5>
+                    <a href="#" class="footertext"><i class="fab fa-facebook-f me-2"></i> Facebook</a>
+                    <a href="#" class="footertext"><i class="fab fa-twitter me-1"></i> Twitter</a>
+                    <a href="#" class="footertext"><i class="fab fa-instagram me-2"></i> Instagram</a>
+                    <a href="#" class="footertext"><i class="fab fa-linkedin-in me-2"></i> Linkedin</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            loop: true,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
